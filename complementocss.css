@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Noto+Sans+Cherokee:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour+Convergence&display=swap');
+
+h2{
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+
+}
+
+
+body{
+  background-image: url(https://files.agro20.com.br/uploads/2019/10/vaca-2-1024x576.jpg); background-size: cover;
+ }
+
+/*classes*/
+.paragraph{
+    background-color: rgb(4, 255, 255);
+    color: rgb(251, 156, 3);
+    padding: 3px;
+}
+
+  /* ids */
+ #exclusive-title{
+    background-color: rgba(176, 19, 158, 0.448);
+    color: aquamarine;
+    padding: 10px;
+    font-size: 40px;
+ }
+ /*hex*/
+ .simples-hex{
+  color:  #55a398;
+
+ }
+ .simples-hex-2{
+  color:  #006494;
+  
+ }
+ .rgb{
+  color:rgb(5, 241, 24);
+
+ }
+ /*hsl*/
+ .hsl{
+  color: rgb(149, 21, 21);  
+
+ }
+ .altura-largura{
+  height: 100px;/*altura*/
+  width: 150px;/*largura*/
+  background-color: darkseagreen;
+
+ }
+ .altura-largura2{
+  height: 20px;/*altura*/
+  background-color: violet;
+
+ }
+ /*padding*/
+ .sem-padding{
+  background-color: red;/*cor de fundo*/
+  color: rgb(251, 156, 3) /*cor das letras*/
+ }
+ .esse-tem-padding{
+  background-color: bisque;/*cor de fundo*/
+  color: cornflowerblue;/*cor das letras*/
+  padding: 14px;/**/
+ }
+.padding-individual{
+  background-color: blue;
+  padding-top: 10px;/*alterando padding no topo*/
+  padding-left: 20px;/*alterando padding na esquerda*/
+  padding-right: 10px;/*alterando padding na direita*/
+  padding-bottom: 19px;/*alterando padding abaixo*/
+}
+  .Shorthand-padding{
+background-color: aqua;
+padding: 6px 12px 18px 24px;
+  }
+  .Shorthand-padding-2{
+ background-color: blue;
+ padding: 10px 20px ; /*aplicando shorthand*/
+  }
+    .sem-border-box{
+      background-color: aquamarine;
+      color: yellowgreen;
+      width: 40px;
+      padding: 40px;
+    }
+      .com-border-box{
+        background-color: aquamarine;
+      color: cornflowerblue;
+      width: 20px;
+      padding: 100px;
+    
+      }
+      .com-border-box-2{
+        background-color: red;
+      color: blue;
+      width: 20px;
+      padding: 100px;
+      box-sizing: border-box;
+      }
+
+      .borda-esquerda{
+        border-left: 3px solid rebeccapurple;
+        background-color: rgb(193, 245, 4);
+        padding: 25px;
+      }
+
+      .borda-inferior{
+        border-bottom: 100px double purple;
+        background-color: coral;
+        padding: 20px;
+      }
+
+      .borda-arrendondada{
+         border: 4px solid burlywood;/*4px é a espessura da borda /solid é caracteristica (solid / burlywood é a cor )*/
+         background-color: blueviolet;
+         color: #55a398;
+         padding: 20px;
+         border-radius: 15px;
+
+      }
+     .borda-arrendondada-2{
+      background-color: blueviolet;
+      color: #55a398;
+      padding: 20px;
+      border-radius: 25px;
+
+     }
+
+     .margem{
+      margin: 10px;
+      background-color: darkkhaki;
+     }
+
+     .margem-superior{
+     background-color: midnightblue;
+     padding: 10px;
+     }
+
+     .margem-shorthand{
+    background-color: goldenrod;
+    margin: 5px 10px 15px 20px; /*5px é o topo / 10px é na direita / 15px é abaixo / 20px é na esquerda*/
+     }
+
+        .alinhamento-texto{
+          text-align: right;
+          font-size: 30px;
+          color: #55a398;
+        }
+
+      .contrair-texto{
+       text-align: center;
+       width: 700px;
+       border: 1px double red;
+        }
+
+     .underline{
+      text-decoration: underline;
+       }
+
+      .line-trough{
+      text-decoration: line-through; /*risco*/
+       }
+
+      .upper{
+       text-transform: uppercase;/*Esse deixa o texto em caixa alata*/
+       }
+
+      .lower{
+       text-transform: lowercase;/*texto em caixa abaixo 8*/
+       }
+
+      .spacing{
+       letter-spacing: 10px;
+       }
+
+      .italiano{
+       font-style: italic;
+       }
+
+        .oblique{
+        font-style: 100;
+        }
+
+       .thin{
+        font-weight: 100;
+       }
+
+      .bold{
+       font-weight: 600;
+       }
+
+      .bolder{
+          font-weight: 900;
+       }
+
+      .inline-box{
+      width: 50px;
+      height: 50px;
+      background-color: cornsilk;
+      margin: 10px;
+      display: inline-block;/*Display inline*/
+      }
+     
+      .block{
+      background-color: rgb(149, 21, 21);
+      display: block;/*display em block*/
+      margin: 10px;
+      }
+
+      .static{
+      position:static;/*estatico*/
+      background-color: black;
+      color: #09fffb;
+      width: 100px;
+      height: 100px;
+      }
+      
+      .relativo{
+        position: relativo;
+        background-color: chocolate;
+        color: darkmagenta;
+        width: 100px;
+        height: 100px;
+        top: 100px;
+        left: 40px;
+      }
+       
+      .container-relativo-absoluto{
+        width: 500px;
+        height: 300px;
+        border: 5px solid red;
+        margin-top: 100px;
+        position: relative;
+      }
+
+     
+      .absolute1,
+      .absolute2{
+        width: 100px;
+        height: 100px;
+        border-color: rgb(1, 250, 76);
+        position: absolute;
+      }
+
+        .absolute-1{
+          top: 10px;
+          left: 10px;
+        }
+
+      .absolute-2{
+        bottom: 20px;
+        right: 20px;
+      }
+
+      .fixo{
+        width: 200px;
+        height: 100px;
+        background-color: fuchsia;
+        border: 2px solid green;
+        position: fixed;
+        top: 10px;
+        right: 100px;
+      }
+
+      .sticky{
+        width: 100px;
+        height: 100px;
+        background-color: deeppink;
+        border: 2px double green;
+        position: sticky;
+        top: 10px;
+      }
+
+      .absolute-3,
+      .absolute-4,
+      .absolute-5{
+        width: 50px;
+        height: 50px;
+        background-color: darkslategray;
+        position: absolute;
+      }
+
+      .absolute-3{
+       top: 0;
+       left: 0;
+       z-index: 20;
+      }
+      
+      .absolute-4{
+        top: 40px;
+        left: 40px;
+        background-color: darkgoldenrod;
+        z-index: 20px;
+      }
+   
+      .absolute-5{
+        top: 40px;
+        left: 40px;
+        background-color: darkslategrey;
+        z-index: 1;
+      }

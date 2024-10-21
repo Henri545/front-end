@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=2.0">
+    <title>Criando girias da rpzd</title>
+    <script src="logica.js"></script>
+
+</head>
+<body style=" font-family: Georgia, 'Times New Roman', Times, serif;/* Definindo fonte */
+background-color: rgb(0, 88, 164) ; /* Definindo cor de fundo*/
+margin: 0; 
+padding: 0; /*remove o espancamento interno*/
+display: flex;/*centraliza horizontalmento*/
+justify-content: center;/*centraliza o conteudo vertical*/
+align-items: center;/*centraliza o conteudo vertical*/
+height: 80vh;/*define que a altura seja 100%da tela*/">
+
+    <div  style=" text-align: center;/*centraliza o texto dentro do conteiner*/
+    background-color: #c35050;/*cor de fundo do conteiner*/
+    padding: 20;/*Esperando inerno do conteiner*/
+    border-radius: 12px;/*Borda arredondada*/">
+        <h1> Escreva sua giria: </h1>
+    <input type="text" id="giriasInput"
+         placeholder="Insira sua giria aqui parçapadding: 10px;/*Escapamento interno no campo do texto*/
+         width: 60%;/*Largura do campo em relaçao ao conteiner*/
+         margin-bottom: 10px;/*Escapamento inferior*/
+         border: 1px solid #ccc;/*Borda cinza clara*/
+         border-radius: 5px;/*Borda arrendondada*/">
+        <!-- um botão que chama a função JavaScript ao ser clicado -->
+       <button onclick="adicionandoGiria()" style="padding: 20px; /*Tamanho do botao*/
+       background-color: black; /*cor de fundo*/
+       color: blueviolet;/*cor do texto*/
+       border: none;/*remove a borda padrao*/
+       border-radius: 12px;/*borda arredondada*/
+       cursor: pointer;/*muda o cursor para a mãozinha ao passar no botão*/">
+        adicionar Giria </button>
+    
+        <div id="resultado" style= " margin-top: 20px;/*Espaçamento superior*/
+        font-size: 18px;/*Tamanhoda fonte para o texto*/
+        color: chocolate;/*Cor do texto cinza escuro*/" ></div>
+    </div>
+
+</body>
+</html>
